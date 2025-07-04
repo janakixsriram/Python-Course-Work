@@ -48,3 +48,70 @@ print(sorted("python")) # Output: ['h', 'n', 'o', 'p', 't','y']
 print(ord('A')) # Output: 65 (ASCII value of 'A')
 print(chr(97)) # Output: 'a' (character for ASCII value 97)
 
+#Complete List of Python String Methods with Examples
+# 1. Case Conversion Methods
+
+name = 'janaki'
+print(name.upper()) #upper()
+print(name.lower()) #lower()
+print(name.capitalize()) #capitalize()
+print(name.title()) #title
+print(name.swapcase()) #swapcase()
+
+# 2.Alignment & Formatting Methods
+person = "chaitra"
+print(person.center(20,'*')) #center(width,fillchar)
+print(person.ljust(10, "-")) #ljust(width,fillchar)
+print(person.rjust(15,"&"))  #rjust(width,fillchar)
+print(person.zfill(10))  #zfill(width)
+
+# 3.Search & Find Methods
+item = '''Banana'''
+print(item.find('n')) #find(sub)
+print(item.rfind('n'))
+print(item.index("a"))
+print(item.rindex("a"))
+print(item.count("a"))
+
+# 4. String Testing Methods (Boolean Results)
+word = 'python programming language'
+print(word.startswith("py"))
+print(word.endswith("age"))
+print(word.isalpha())
+print(word.isalnum())
+print(word.islower())
+print(word.isupper())
+print(word.isspace())
+print(word.istitle())
+print(word.isidentifier())
+
+#5.Replace & Modify Methods
+key = "ramu"
+print(key.replace('a','o'))
+print(key.translate(str.maketrans("a" , "x")))
+
+
+#6. Splitting & Joining Methods
+string = "sriram,janaki,hari"
+print(string.split("*"))
+print(string.rsplit("%"))
+print(" ".join(["Hello", "World"]))
+print(string.partition("-"))
+print(string.rpartition("-"))
+
+#7. Whitespace & Trimming Methods
+town = 'Kanigiri'
+print(town.strip())
+print(town.lstrip())
+print(town.rstrip())
+
+
+
+
+
+
+
+
+
+
+
