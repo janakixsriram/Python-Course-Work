@@ -14,13 +14,13 @@ print("Thankyou")
 amount = int(input("Enter the amount you can spend for weekend: "))
 if amount>20000:
     print("Trip to Goa")
-elif amount>15000:
+elif amount<=15000:
     print("Go for Shopping")
-elif amount>10000:
+elif amount<=10000:
     print("Clubingg")
-elif amount>5000:
+elif amount<=5000:
     print("Cafe/Dinner")
-elif amount>2000:
+elif amount<=2000:
     print("Cinema")
 else:
     print("Go And Sleep")
