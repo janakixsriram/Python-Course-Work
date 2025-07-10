@@ -6,4 +6,6 @@ if search_input in items:
     print(f"{search_input} found. Buy now!!")
 else:
     print(f"{search_input} is out of stock now. we will notify you.")
-    
+
+print("Thankyou")
+
