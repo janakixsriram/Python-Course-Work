@@ -1,7 +1,7 @@
-number = int(input())
+number = input()
 l = list(number)
-print(l.count())
-if l.count() == 3:
+k = len(l)
+if k == 3:
     print(f"{number} is a 3 digit number")
 else:
     print(f"{number} is not a 3 digit number")
