@@ -1,6 +1,8 @@
-n = (input("Enter two values: "))
-c = list(n)
-if c[0] > c[1]:
-    print(f"{c[0]} is greater than {c[1]}")
+numbers = (input("Enter the values seperated by comma: "))
+a, b = map(int, numbers.split(","))
+if a>b:
+    print(f"{a} is greater")
+elif b>a:
+    print(f"{b} is greater")
 else:
-    print(f"{c[1]} is greater")
+    print("Both numbers are equal")
