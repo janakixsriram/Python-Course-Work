@@ -17,3 +17,5 @@ for i in line:
     if i not in data and i!=' ':
         data[i] = line.count(i)
 print(data)
+
+
