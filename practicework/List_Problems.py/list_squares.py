@@ -1,5 +1,6 @@
 numbers = list(map(int, input("Enter numbers:").split()))
+k = []
 for i in numbers:
-    print(i*i)
-print(f"squares:",{i})
+    k.append(i*i)
+print("squares:",k)
 
