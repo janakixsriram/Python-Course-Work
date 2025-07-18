@@ -1,3 +1,3 @@
 numbers = list(map(int,input("Enter numbers: ").split()))
 numbers.sort()
-print(numbers[-2])
+print("Second largest number: ",numbers[-2])
