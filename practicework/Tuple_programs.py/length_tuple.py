@@ -1,3 +1,3 @@
 elements = (input("Enter elements" ).split())
-length = elements.len()
+length = len(elements)
 print(length)
