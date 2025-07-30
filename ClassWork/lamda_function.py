@@ -9,3 +9,9 @@ print(mulnum(2,3))
 
 length = lambda a: len(a)
 print(length('python'))
+
+ 
+### to print [1,2,3,4,5]###
+
+l = eval(input())
+print(l)  
