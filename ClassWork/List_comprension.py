@@ -82,3 +82,7 @@ d = {i:i*i for i in range(1,5)}
 
 
 
+s = 'python'
+l = [i.upper() for i in s]
+print(l)
+""" converting output as list to string print("".join(l)) """ 
