@@ -37,3 +37,7 @@ print(random.choice(names))
 print(random.choices(names,k=2))
 print(random.shuffle(names),names)
 
+import collections
+w = (1,2,3,4,2,1,3,2,3,1,1,2,3)
+d = collections.Counter(w)
+print(d)
