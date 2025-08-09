@@ -5,4 +5,4 @@ if f == 0 or f == 1:
 else:
     for i in range(1,f+1):
         fact *= i
-    print(fact)
+print(fact)
