@@ -92,6 +92,7 @@ c.display_c()
 d = D()
 d.display_a()
 d.display_d()
+# hybrid inheritace
 
 # Example whatsaap
 
