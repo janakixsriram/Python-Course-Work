@@ -19,9 +19,14 @@ file.close()
 """
 
 ##another way to open file
-
+"""
 with open('dsda.txt','r+') as file:
     print(file.read())
     file.write('\nFile operations \n')
     file.seek(0)
     print(file.read())
+"""
+#Practice
+file = open('janaki.txt','w')
+file.write("hi janaki sriram segu")
+file.close()

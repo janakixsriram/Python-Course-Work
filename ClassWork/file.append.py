@@ -1,3 +1,4 @@
+"""
 try:
     file = open('dsda.txt','a+')
 except Exception:
@@ -7,3 +8,8 @@ else:
 
 finally:
     print("Rest of the code")
+"""
+
+file = open('janaki.txt','a')
+file.write('\n hey segu janaki sriram how are u')
+file.close()
