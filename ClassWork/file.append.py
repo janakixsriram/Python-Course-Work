@@ -11,5 +11,6 @@ finally:
 """
 
 file = open('janaki.txt','a')
-file.write('\n hey segu janaki sriram how are u')
+lines=["sriram segu","chaitra segu"]
+file.writelines(lines)
 file.close()
