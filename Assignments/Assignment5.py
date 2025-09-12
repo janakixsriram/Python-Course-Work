@@ -1,7 +1,7 @@
 from movie import Cinema, Movie, Showtime, Manager, Customer
 
 def main():
-    print("🎬 Welcome to Movie Ticket Booking System 🎟️")
+    print("Welcome to Movie Ticket Booking System ")
 
     cinema = Cinema("PVR Multiplex")
     manager = Manager("Alice", "alice@cinema.com")
@@ -40,7 +40,7 @@ def main():
                 print(f"{idx}. {movie}")
 
         elif choice == "2":
-            print("\n⏰ Showtimes:")
+            print("\n Showtimes:")
             for idx, show in enumerate(cinema.showtimes, 1):
                 print(f"{idx}. {show.movie.title} at {show.time}")
 
@@ -64,7 +64,7 @@ def main():
                 cinema.book_ticket(customer, show, seat_no)
 
         elif choice == "5":
-            print("\n🧾 My Bookings:")
+            print("\n My Bookings:")
             if not customer.bookings:
                 print("No bookings yet.")
             else:
@@ -72,15 +72,15 @@ def main():
                     print(b)
 
         elif choice == "6":
-            print("\n📊 Cinema Report:")
+            print("\n Cinema Report:")
             cinema.display_reports()
             Cinema.occupancy_report()
 
         elif choice == "0":
-            print("👋 Thank you for using Movie Ticket Booking System!")
+            print("Thank you for using Movie Ticket Booking System!")
             break
         else:
-            print("❌ Invalid choice, try again.")
+            print("Invalid choice, try again.")
 
 if __name__ == "__main__":
     main()

@@ -40,10 +40,10 @@ def menu():
         elif choice == "14": mp.remove_duplicates()
         elif choice == "15": mp.decimal_to_binary()
         elif choice == "0":
-            print("✅ Exiting program. Goodbye!")
+            print(" Exiting program. Goodbye!")
             break
         else:
-            print("❌ Invalid choice. Please try again.")
+            print(" Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     menu()

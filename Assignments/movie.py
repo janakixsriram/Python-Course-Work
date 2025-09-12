@@ -124,10 +124,10 @@ class Cinema:
             customer.bookings.append(booking)
             self.bookings.append(booking)
             Cinema.total_bookings += 1
-            print("✅ Booking successful!")
+            print(" Booking successful!")
             print(booking)
         else:
-            print("❌ Seat already booked!")
+            print(" Seat already booked!")
 
     @classmethod
     def occupancy_report(cls):
